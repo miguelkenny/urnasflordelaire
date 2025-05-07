@@ -382,7 +382,7 @@ a.whatsapp-button {
   background: none;
   border: none;
   color: white;
-  display: none;
+  display: block;
   cursor: pointer;
 }
 

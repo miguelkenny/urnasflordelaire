@@ -24,14 +24,21 @@
       class="hamburger"
       on:click={() => (isOpen = !isOpen)}
       aria-label="Abrir menú"
+      aria-expanded={isOpen}
     >
       ☰
     </button>
 
     <ul class:open={isOpen}>
-      <li><a href="/">Inicio</a></li>
-      <li><a href="/sobre-nosotros">Sobre Nosotros</a></li>
-      <li><a href="/contacto">Contacto</a></li>
+      <li><a href="/" on:click={() => (isOpen = false)}>Inicio</a></li>
+      <li>
+        <a href="/sobre-nosotros" on:click={() => (isOpen = false)}
+          >Sobre Nosotros</a
+        >
+      </li>
+      <li>
+        <a href="/contacto" on:click={() => (isOpen = false)}>Contacto</a>
+      </li>
     </ul>
   </div>
 </nav>
