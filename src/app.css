@@ -33,7 +33,7 @@ h3 {
 .page-container {
   display: flex;
   flex-direction: column;
-  min-width: 100vh; /* Asegura que el contenedor ocupe el 100% de la pantalla */
+  min-height: 100vh;
 }
 
 /* Tarjetas de urnas */
@@ -120,6 +120,199 @@ a.whatsapp-button {
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
+}
+
+/* Intro Banner*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+}
+
+@media (max-width: 768px) {
+  .bebas-neue-regular {
+    font-size: 2.5rem;
+  }
+}
+
+.intro-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: #f9fafb00;
+  flex-wrap: wrap;
+}
+
+.intro-banner__image img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.intro-banner__text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.intro-banner__text h2 {
+  margin-bottom: 1rem;
+  color: #f7f7f7;
+}
+
+.intro-banner__text p {
+  line-height: 1.6;
+  color: #fdfdfd;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .intro-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .intro-banner__text p {
+    font-size: 1rem;
+  }
+
+  .intro-banner__text h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.signature {
+  font-style: italic;
+  color: #6b7280;
+  margin-top: 1rem;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  color: #f9fafb;
+  padding: 2rem 1.5rem;
+  font-size: 0.95rem;
+  border-top: 1px solid #e5e7eb; /* línea gris clara */
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.05); /* sombra en la parte superior */
+}
+
+.footer-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.footer-logo {
+  height: 60px;
+  margin-right: 1rem;
+  border-radius: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.slogan {
+  font-style: italic;
+  color: #d1d5db;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+  text-align: center;
+}
+
+.footer-contact a,
+.footer-links a {
+  color: #f3f4f6;
+  text-decoration: none;
+  display: block;
+  margin: 0.25rem 0;
+}
+
+.footer-contact a:hover,
+.footer-links a:hover {
+  color: #60a5fa;
+}
+
+.footer-links h3,
+.footer-contact h3,
+.footer-social h3 {
+  text-align: left;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 1.5rem;
+}
+
+.footer-social a {
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.footer-social a:hover {
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+@media (max-width: 640px) {
+  .footer-brand {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-logo {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-container {
+    text-align: center;
+  }
+
+  .footer-links a,
+  .footer-contact a {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro-banner__image img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .intro-banner__text h2 {
+    font-size: 1.75rem;
+  }
 }
 
 /* ====== Navbar styles ====== */
