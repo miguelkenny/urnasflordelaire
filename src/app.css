@@ -76,6 +76,13 @@ h3 {
   padding: 2rem;
 }
 
+@media (max-width: 600px) {
+  .grid-urnas {
+    grid-template-columns: 1fr; /* una sola columna en móviles */
+    padding: 1rem;
+  }
+}
+
 /* Botones */
 button,
 .btn {
