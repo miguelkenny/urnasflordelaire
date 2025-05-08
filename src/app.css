@@ -286,7 +286,7 @@ a.whatsapp-button {
   color: #9ca3af;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .footer-brand {
     flex-direction: column;
     text-align: center;
@@ -402,6 +402,10 @@ nav li a {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    position: absolute;
+    margin-top: 12rem;
+  }
   .hamburger {
     display: block;
     position: absolute;
