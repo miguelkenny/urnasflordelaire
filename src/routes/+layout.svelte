@@ -1,5 +1,6 @@
 <script>
   import "../app.css";
+  import Footer from "../components/Footer.svelte";
   let isOpen = false;
 </script>
 
@@ -44,4 +45,6 @@
 </nav>
 <div class="main-container">
   <slot />
+  <div class="linea"></div>
+  <Footer />
 </div>
