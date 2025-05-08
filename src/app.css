@@ -330,6 +330,7 @@ a.whatsapp-button {
 }
 
 .navbar-container {
+  position: relative;
   max-width: 80%;
   margin: 0 auto;
   padding: 3rem 1rem;
@@ -381,8 +382,8 @@ a.whatsapp-button {
   font-size: 1.5rem;
   background: none;
   border: none;
+  display: none;
   color: white;
-  display: block;
   cursor: pointer;
 }
 
@@ -403,20 +404,38 @@ nav li a {
 @media (max-width: 768px) {
   .hamburger {
     display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 10;
+  }
+
+  nav {
+    position: relative; /* Para que el menú se posicione con respecto al nav */
   }
 
   nav ul {
+    position: absolute;
+    top: 4.3rem; /* ajusta según el tamaño del botón */
+    right: 1rem;
     flex-direction: column;
-    width: 100%;
+    width: calc(35% - 0.5rem); /* o un ancho específico */
+    background-color: #a2a791; /* o cualquier color de fondo para que sea visible */
     display: none;
-    margin-top: 1rem;
+    margin: 1;
+    padding: 4px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9;
   }
 
   nav ul.open {
     display: flex;
+    padding-right: 0.5rem;
   }
 
   nav li {
-    text-align: center;
+    text-align: right;
+    margin: 0.1rem 0;
   }
 }
