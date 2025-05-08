@@ -327,10 +327,10 @@ a.whatsapp-button {
   background: linear-gradient(145deg, #442063, #1d3263);
   color: white;
   padding: 1rem 0;
+  height: 18rem;
 }
 
 .navbar-container {
-  position: relative;
   max-width: 80%;
   margin: 0 auto;
   padding: 3rem 1rem;
