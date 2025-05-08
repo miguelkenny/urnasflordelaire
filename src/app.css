@@ -419,7 +419,7 @@ nav li a {
     top: 4.3rem; /* ajusta según el tamaño del botón */
     right: 1rem;
     flex-direction: column;
-    width: calc(35% - 0.5rem); /* o un ancho específico */
+    width: calc(40% - 0.5rem); /* o un ancho específico */
     background-color: #a2a791; /* o cualquier color de fondo para que sea visible */
     display: none;
     margin: 1;
