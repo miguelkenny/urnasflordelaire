@@ -18,5 +18,6 @@
       <UrnaCard {urna} />
     {/each}
   </div>
+  <div class="linea"></div>
+  <Footer />
 </div>
-<Footer />

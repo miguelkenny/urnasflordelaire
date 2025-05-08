@@ -211,7 +211,6 @@ a.whatsapp-button {
   color: #f9fafb;
   padding: 2rem 1.5rem;
   font-size: 0.95rem;
-  border-top: 1px solid #e5e7eb; /* línea gris clara */
   box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.05); /* sombra en la parte superior */
 }
 

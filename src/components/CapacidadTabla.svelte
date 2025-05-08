@@ -164,7 +164,7 @@
 
   .filtros {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   .filtros button {
@@ -182,6 +182,20 @@
     background-color: #0077cc;
     color: rgb(23, 23, 23);
     border-color: #0077cc;
+  }
+
+  /* Media query para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .filtros {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .filtros button {
+      margin: 0.5rem 0;
+      width: 80%; /* opcional: para hacerlos más anchos */
+    }
   }
 
   .cards-container {
