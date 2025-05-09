@@ -54,7 +54,7 @@
 
   h1 {
     font-family: "Playfair Display", serif;
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     color: #444;
     margin-bottom: 1rem;
   }
