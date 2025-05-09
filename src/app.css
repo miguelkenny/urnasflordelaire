@@ -41,7 +41,7 @@ h3 {
   background: rgb(61, 45, 108);
   color: var(--color-texto);
   border-radius: 12px;
-  padding: 1.5rem;
+  padding: 1.1rem;
   margin: 1rem 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease;
@@ -78,6 +78,7 @@ h3 {
 
 @media (max-width: 600px) {
   .grid-urnas {
+    width: 100%;
     grid-template-columns: 1fr; /* una sola columna en móviles */
     padding: 1rem;
   }
