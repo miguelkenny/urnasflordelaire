@@ -13,7 +13,7 @@ export default [
     nombre: "Urna Cielo",
     descripcion: "Representa la elevación del alma.",
     descripcionLarga: "La urna cielo evoca la libertad, el desapego y la trascendencia.",
-    imagen: "/images/urna-cielo.jpg",
+    imagen: "/images/urna-1500-verde.png",
     capacidad: 3,
     gramos: 1500
   },
