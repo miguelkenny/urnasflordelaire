@@ -62,14 +62,6 @@
     margin-bottom: 1rem;
   }
 
-  .flyer-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 12px;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  }
-
   .descripcion {
     font-size: 1.05rem;
     color: #333;
