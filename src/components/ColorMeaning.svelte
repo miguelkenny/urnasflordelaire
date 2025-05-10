@@ -1,111 +1,150 @@
 <script>
-  let activeIndex = null;
+  let selected = null;
 
   const colors = [
     {
-      nombre: "Blanco Piedra",
-      hex: "#f4f1ec",
-      significado:
-        "Símbolo de paz, pureza y descanso eterno. Una elección que evoca serenidad y luz, ideal para quienes irradiaban calma y claridad.",
+      nombre: "Blanco piedra",
+      hex: "#f5f5f4",
+      descripcion:
+        "Evoca pureza, paz y una conexión con lo esencial. Ideal para quienes valoran la luz y la serenidad.",
     },
     {
-      nombre: "Turquesa Chino",
-      hex: "#64c6c6",
-      significado:
-        "Representa sanación, equilibrio y conexión espiritual. Este tono fresco remite a aguas tranquilas y profundas, honrando almas intuitivas y sensibles.",
+      nombre: "Turquesa chino",
+      hex: "#00a6a6",
+      descripcion:
+        "Representa equilibrio emocional, frescura y espiritualidad. Inspirado en aguas tranquilas y cielos limpios.",
     },
     {
-      nombre: "Rojo Selenio",
-      hex: "#b13a3a",
-      significado:
-        "Fuerza, vitalidad y presencia. Una opción cálida y poderosa para personas que vivieron con pasión, dejando una huella imborrable.",
+      nombre: "Rojo selenio",
+      hex: "#a52a2a",
+      descripcion:
+        "Símbolo de vitalidad, amor y fuerza interior. Aporta calidez y profundidad emocional.",
     },
     {
       nombre: "Azul",
-      hex: "#4a75c2",
-      significado:
-        "Reflexión, profundidad y confianza. Inspirado en el cielo y el mar, este color rinde homenaje a quienes ofrecían contención y sabiduría.",
+      hex: "#1e3a8a",
+      descripcion:
+        "Invoca serenidad, sabiduría y confianza. Relacionado con el cielo y el mar infinito.",
     },
     {
       nombre: "Caramelo",
-      hex: "#b87333",
-      significado:
-        "Cercanía, dulzura y memoria cálida. Tono terroso y acogedor, ideal para quienes brindaron afecto desde lo simple y verdadero.",
+      hex: "#c97e4f",
+      descripcion:
+        "Tonos cálidos y acogedores que transmiten dulzura, protección y naturalidad.",
     },
     {
       nombre: "Habano",
-      hex: "#8c5a3c",
-      significado:
-        "Solidez, raíces y presencia serena. Un color sobrio y natural, en tributo a vidas con historia y firmeza.",
+      hex: "#8b5e3c",
+      descripcion:
+        "Conecta con la tierra, la raíz y la estabilidad. Ideal para homenajes sobrios y elegantes.",
     },
     {
       nombre: "Violeta",
-      hex: "#9a6ec2",
-      significado:
-        "Transformación, espiritualidad y sensibilidad. Este color rinde homenaje a almas profundas, creativas y conectadas con lo trascendente.",
+      hex: "#7c3aed",
+      descripcion:
+        "Color de transformación, espiritualidad y conexión con el alma. Evoca misterio y contemplación.",
     },
     {
       nombre: "Rosado",
-      hex: "#e59cb8",
-      significado:
-        "Amor tierno, compasión y suavidad. Perfecto para recordar a personas amorosas, que cultivaron vínculos desde el corazón.",
+      hex: "#f472b6",
+      descripcion:
+        "Simboliza ternura, amor incondicional y dulzura. Perfecto para recuerdos sensibles y amorosos.",
     },
   ];
 
   function toggle(index) {
-    activeIndex = activeIndex === index ? null : index;
+    selected = selected === index ? null : index;
   }
 </script>
 
-<div>
-  {#each colors as color, index}
-    <div class="card" on:click={() => toggle(index)}>
-      <div class="card-header">
-        <div class="color-sample" style="background-color: {color.hex}"></div>
-        {color.nombre}
+<div class="colors-section">
+  <div class="colors-grid">
+    {#each colors as color, index}
+      <div class="card" on:click={() => toggle(index)}>
+        <div class="color-header">
+          <div
+            class="swatch"
+            style="background-color: {color.hex};"
+            title={color.nombre}
+          ></div>
+          <h3>{color.nombre}</h3>
+        </div>
+        {#if selected === index}
+          <p>{color.descripcion}</p>
+        {/if}
       </div>
-      {#if activeIndex === index}
-        <p class="significado">{color.significado}</p>
-      {/if}
-    </div>
-  {/each}
+    {/each}
+  </div>
 </div>
 
 <style>
+  .colors-section {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+  }
+
+  .colors-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
   .card {
-    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #e0e0e0;
     border-radius: 12px;
     padding: 1rem;
-    margin-bottom: 1rem;
-    background: #fff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    background: #f9f9f9;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: background 0.3s ease;
   }
 
   .card:hover {
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    background-color: #f1f1f1;
   }
 
-  .color-sample {
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 50%;
-    margin-right: 0.75rem;
-    border: 1px solid #999;
-  }
-
-  .card-header {
+  .color-header {
     display: flex;
     align-items: center;
-    font-weight: bold;
+    gap: 0.75rem;
+  }
+
+  .swatch {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 0 1px #fff;
+  }
+
+  .card h3 {
+    margin: 0;
     font-size: 1rem;
+    font-weight: 600;
     color: #333;
   }
 
-  .significado {
+  .card p {
     margin-top: 0.5rem;
-    color: #555;
     font-size: 0.95rem;
+    line-height: 1.4;
+    color: #444;
+  }
+
+  @media (min-width: 768px) {
+    .colors-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .colors-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
   }
 </style>
