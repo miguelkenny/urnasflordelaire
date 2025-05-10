@@ -1,4 +1,5 @@
 <script>
+  import ColorMeaning from "../../../components/ColorMeaning.svelte";
   export let data;
   const { urna } = data.data;
 
@@ -17,7 +18,8 @@
         <strong>Capacidad:</strong>
         {urna.capacidad} litros (~{urna.gramos}g de cenizas)
       </div>
-
+      <h1>Colores Disponibles</h1>
+      <ColorMeaning />
       <a
         href={whatsappLink}
         target="_blank"
