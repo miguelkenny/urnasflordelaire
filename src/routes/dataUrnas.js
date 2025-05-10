@@ -32,9 +32,13 @@ export default [
     descripcion: "Una urna de gran capacidad, símbolo de abundancia y amor.",
     descripcionLarga: "Manantial es una urna de gran capacidad, inspirada en la abundancia de las fuentes naturales. Ideal para contener la memoria de personas de espíritu generoso y amor expansivo.",
     imagenes: [
+      "/images/2500-blanco.png",
+      "/images/2500-turquesa.png",
       "/images/2500.png",
+      "/images/2500-azul.png",
       "/images/2500-caramelo.png",
-      "/images/2500-azul.png"],
+      "/images/2500-habano.png"
+    ],
     capacidad: 2.500,
     gramos: "1,250 - 1,500"
   },
