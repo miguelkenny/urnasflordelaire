@@ -19,8 +19,10 @@
         <strong>Capacidad:</strong>
         {urna.capacidad} litros (~{urna.gramos}g de cenizas)
       </div>
-      <h1>Colores Disponibles</h1>
-      <ColorMeaning />
+      {#if urna.tipo == "std"}
+        <h1>Colores Disponibles</h1>
+        <ColorMeaning />
+      {/if}
       <a
         href={whatsappLink}
         target="_blank"
