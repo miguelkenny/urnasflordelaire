@@ -1,5 +1,6 @@
 <script>
   import ColorMeaning from "../../../components/ColorMeaning.svelte";
+  import ImageSlider from "../../../components/ImageSlider.svelte";
   export let data;
   const { urna } = data.data;
 
@@ -12,7 +13,7 @@
   <section class="flyer">
     <div class="flyer-content">
       <h1>{urna.nombre}</h1>
-      <img src={urna.imagen} alt={urna.nombre} class="flyer-image" />
+      <ImageSlider imagenes={urna.imagenes || [urna.imagen]} />
       <p class="descripcion">{urna.descripcionLarga}</p>
       <div class="detalle">
         <strong>Capacidad:</strong>

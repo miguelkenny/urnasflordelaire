@@ -1,9 +1,10 @@
 <script>
   export let urna;
+  import ImageSlider from "./ImageSlider.svelte";
 </script>
 
 <div class="urna-card">
-  <img src={urna.imagen} alt={urna.nombre} />
+  <ImageSlider imagenes={urna.imagenes || [urna.imagen]} />
   <h2>{urna.nombre}</h2>
   <p>{urna.descripcion}</p>
   <p>

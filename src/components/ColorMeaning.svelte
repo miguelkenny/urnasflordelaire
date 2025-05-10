@@ -3,19 +3,19 @@
 
   const colors = [
     {
-      nombre: "Blanco piedra",
+      nombre: "Blanco Piedra",
       hex: "#f5f5f4",
       descripcion:
         "Evoca pureza, paz y una conexión con lo esencial. Ideal para quienes valoran la luz y la serenidad.",
     },
     {
-      nombre: "Turquesa chino",
+      nombre: "Turquesa Chino",
       hex: "#00a6a6",
       descripcion:
         "Representa equilibrio emocional, frescura y espiritualidad. Inspirado en aguas tranquilas y cielos limpios.",
     },
     {
-      nombre: "Rojo selenio",
+      nombre: "Rojo Selenio",
       hex: "#a52a2a",
       descripcion:
         "Símbolo de vitalidad, amor y fuerza interior. Aporta calidez y profundidad emocional.",
