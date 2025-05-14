@@ -126,6 +126,7 @@ a.whatsapp-button {
   background-color: #25d366;
   color: white;
   padding: 0.75rem 1.5rem;
+  margin-bottom: 3rem;
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
@@ -427,7 +428,7 @@ nav li a {
     right: 1rem;
     flex-direction: column;
     width: calc(40% - 0.5rem); /* o un ancho específico */
-    background-color: #a2a791; /* o cualquier color de fondo para que sea visible */
+    background-color: #c7c786; /* o cualquier color de fondo para que sea visible */
     display: none;
     margin: 1;
     padding: 4px;
