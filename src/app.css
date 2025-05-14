@@ -414,7 +414,9 @@ nav li a {
     right: 1rem;
     z-index: 10;
   }
-
+  .slogan-principal {
+    font-size: 2.4rem;
+  }
   nav {
     position: relative; /* Para que el menú se posicione con respecto al nav */
   }
