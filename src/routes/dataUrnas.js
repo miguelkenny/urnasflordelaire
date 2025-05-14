@@ -129,4 +129,66 @@ export default [
     gramos: "850 - 950",
     tipo: "prm"
   },
+  {
+    slug: "urna-origen",
+    nombre: "Urna Origen 3.500",
+    descripcion: "Una urna amplia y serena, disponible en tonos celeste pastel y rosa pastel, que evoca el regreso al principio y la dulzura del recuerdo.",
+    descripcionLarga: "La urna Origen fue pensada como un homenaje al inicio de todo. Con una capacidad generosa de 3.5 litros, es ideal para contener historias profundas y memorias compartidas. Disponible en celeste pastel, que simboliza la calma, la apertura emocional y la pureza del cielo; y en rosa pastel, color que representa el amor incondicional, la ternura y la conexión con lo esencial. Su diseño limpio y envolvente invita a abrazar el ciclo de la vida con suavidad y respeto. Es una urna que guarda no solo cenizas, sino también el sentido del regreso: a uno mismo, a la tierra, al amor.",
+    imagenes: [
+      "/images/3500-origen.png",
+      "/images/3500-origen2.png"
+    ],
+    capacidad: 3.500,
+    gramos: "1750 - 2000",
+    tipo: "prm"
+  },
+  {
+    slug: "urna-gota",
+    nombre: "Urna Gota de Rocio",
+    descripcion: "Una Gota de Rocio: Donde Florece La Memoria",
+    descripcionLarga: `"La urna Gota de Rocío es una pieza única que combina arte, simbolismo y serenidad. 
+    Su tono turquesa chino transmite calma, protección y profundidad emocional, recordando aguas tranquilas y cielos despejados. 
+    Dos flores plateadas, finamente pintadas a mano, florecen sobre su superficie como una caricia visual. 
+    Representan el instante fugaz pero eterno del rocío posado sobre un pétalo: un suspiro de la naturaleza, una memoria que perdura. 
+    Con su diseño refinado y espíritu poético, Gotya de Rocío es una urna que honra la delicadeza del alma y su paso silencioso por el mundo."`,
+    imagenes: [
+      "/images/gota.png",
+    ],
+    capacidad: 3.000,
+    gramos: "1500 - 1800",
+    tipo: "prm"
+  },
+  {
+    slug: "urna-angelito-escultura",
+    nombre: "Urna Angelito Escultura",
+    descripcion: "Una escultura en color marfil que representa a un ángel, símbolo de pureza, amor y protección.",
+    descripcionLarga: `"La Urna para Angelitos es una pieza escultórica pensada con profundo amor y respeto
+    Su forma angelical en tono marfil suave transmite calma, inocencia y ternura.
+    Con sus alas abiertas, esta figura no solo protege lo que guarda, sino que también simboliza el vuelo hacia un lugar de luz y paz.
+    Diseñada para contener las memorias más puras, esta urna es un homenaje sereno para los pequeños seres que partieron demasiado pronto, pero que dejaron una huella infinita.
+    Ideal para quienes desean una representación visual y espiritual del cuidado eterno."`,
+    imagenes: [
+      "/images/angelito-escultura.png",
+    ],
+    capacidad: 1.000,
+    gramos: "460 - 540",
+    tipo: "prm"
+  },
+  {
+    slug: "urna-angelito",
+    nombre: "Urna Angelito",
+    descripcion: "Urna redonda y blanca para angelitos, con delicado cordón en tonos suaves. Un homenaje tierno y sereno para las almas más puras.",
+    descripcionLarga: `"Pequeña y redonda, esta urna ha sido creada con ternura para honrar a los más pequeños. 
+    Su diseño sencillo en blanco puro simboliza la inocencia y la paz. 
+    Cada unidad se acompaña de un suave cordón —a elección entre celeste, rosado, verde agua o beige— que envuelve y resguarda con amor su contorno.
+    Pensada como un refugio sereno para las almas más puras, esta urna es una escultura del cariño eterno, del lazo invisible que une para siempre.
+    Ideal para acompañar un homenaje íntimo y lleno de significado."`,
+    imagenes: [
+      "/images/angelito.png",
+      "/images/angelito2.png",
+    ],
+    capacidad: 0.250,
+    gramos: "",
+    tipo: "prm"
+  },
 ];

@@ -17,6 +17,13 @@
       tipo: "mascota",
     },
     {
+      litros: "1.00",
+      gramos: "460–540 g",
+      peso: "22–35 kg",
+      uso: "Niños medianas o pequeños",
+      tipo: "persona",
+    },
+    {
       litros: "1.3",
       gramos: "600–700 g",
       peso: "30–45 kg",
