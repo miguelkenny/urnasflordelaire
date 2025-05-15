@@ -1,11 +1,13 @@
 export default [
   {
-    slug: "urna-brotes",
-    nombre: "Urna Brotes",
-    descripcion: "Una urna compacta, símbolo de nuevos comienzos y esperanza.",
+    slug: "urna-brisa",
+    nombre: "Urna Brisa",
+    descripcion: "Ligera y etérea, como el susurro del viento entre las hojas.",
     descripcionLarga: [
-      "Como los primeros brotes que emergen de la tierra, esta urna representa un comienzo suave y esperanzador.",
-      "Ideal para almas jóvenes o de energía sutil, su diseño compacto guarda con calidez los recuerdos."
+      "El modelo Brisa está inspirado en la suavidad del aire que acaricia el alma.",
+      "Con líneas delicadas y un diseño liviano, representa el tránsito sereno y natural hacia una nueva forma de existencia.",
+      "Es una urna pensada para honrar la memoria con sencillez, frescura y belleza sutil.",
+      "Ideal para quienes fueron luz suave y presencia discreta."
     ],
     imagen: ["/images/1350.png"],
     capacidad: 1.350,
@@ -13,12 +15,13 @@ export default [
     tipo: "std"
   },
   {
-    slug: "urna-piedra",
-    nombre: "Urna Piedra",
-    descripcion: "Diseño sobrio que representa estabilidad y fortaleza.",
+    slug: "urna-lirio",
+    nombre: "Urna Lirio",
+    descripcion: "Pura, delicada y serena, como una flor que florece en el recuerdo.",
     descripcionLarga: [
-      "Sólida, simple y noble. Piedra simboliza estabilidad, presencia y permanencia.",
-      "Su diseño sobrio en color liso rinde homenaje a quienes fueron pilares en la vida de sus seres queridos."
+      "El modelo Lirio evoca la paz y la pureza que deja una vida vivida con amor.",
+      "Su forma elegante y su estética floral la convierten en una urna que honra con dulzura y respeto.",
+      "Inspirada en la belleza serena del lirio, es perfecta para quienes dejaron una huella sutil pero profunda, como un perfume que persiste en el alma."
     ],
     imagen: ["/images/urna-1500-verde.png"],
     capacidad: 1.500,
@@ -26,12 +29,14 @@ export default [
     tipo: "std"
   },
   {
-    slug: "urna-tronco",
-    nombre: "Urna Tronco",
-    descripcion: "Firme y elegante, ideal para una vida con raíces profundas.",
+    slug: "urna-ceibo",
+    nombre: "Urna Ceibo",
+    descripcion: "Fuerte, vibrante y llena de vida, como el árbol que inspira su nombre.",
     descripcionLarga: [
-      "Como el tronco de un árbol, esta urna representa la fuerza tranquila, el arraigo y la historia.",
-      "Pensada para quienes vivieron con profundidad, dejando huellas duraderas en su entorno."
+      "El modelo Ceibo rinde homenaje a la fuerza vital, al arraigo y a la identidad.",
+      "Inspirado en el árbol sagrado que florece con intensidad, esta urna simboliza pasión, legado y fortaleza.",
+      "Pensada para quienes vivieron con intensidad, con raíces profundas y un espíritu que sigue floreciendo en quienes los recuerdan.",
+      "Es un tributo a la vida que continúa, aún después de la despedida."
     ],
     imagen: ["/images/1500.png"],
     capacidad: 1.750,
