@@ -3,25 +3,18 @@
 
   const datos = [
     {
-      litros: "0.5",
-      gramos: "250–300 g",
-      peso: "Hasta 10–15 kg",
-      uso: "Mascotas pequeñas o bebés",
-      tipo: "mascota",
-    },
-    {
-      litros: "0.75",
-      gramos: "375–450 g",
-      peso: "15–25 kg",
-      uso: "Mascotas medianas o niños pequeños",
-      tipo: "mascota",
+      litros: "0.250",
+      gramos: "125–150 g",
+      peso: "Hasta 2–3 kg",
+      uso: "Bebés recien nacidos o pequeños",
+      tipo: "angelito",
     },
     {
       litros: "1.00",
       gramos: "460–540 g",
       peso: "22–35 kg",
       uso: "Niños medianas o pequeños",
-      tipo: "persona",
+      tipo: "angelito",
     },
     {
       litros: "1.3",
@@ -72,10 +65,28 @@
       uso: "Cenizas múltiples o mezcla familiar",
       tipo: "persona",
     },
+    {
+      litros: "0.5",
+      gramos: "250–300 g",
+      peso: "Hasta 10–15 kg",
+      uso: "Mascotas pequeñas o bebés",
+      tipo: "mascota",
+    },
+    {
+      litros: "0.75",
+      gramos: "375–450 g",
+      peso: "15–25 kg",
+      uso: "Mascotas medianas o niños pequeños",
+      tipo: "mascota",
+    },
   ];
 
   function obtenerIcono(tipo) {
-    return tipo === "mascota" ? "🐾" : "🧍";
+    const iconos = {
+      angelito: "👼",
+      persona: "🧍",
+    };
+    return iconos[tipo] || "🐾";
   }
 
   function obtenerColor(tipo) {
@@ -103,29 +114,47 @@
       on:click={() => (filtro = "todos")}>🔄 Todas</button
     >
     <button
-      class:activo={filtro === "mascota"}
-      on:click={() => (filtro = "mascota")}>🐾 Mascotas</button
+      class:activo={filtro === "angelito"}
+      on:click={() => (filtro = "angelito")}>👼 Angelitos</button
     >
     <button
       class:activo={filtro === "persona"}
       on:click={() => (filtro = "persona")}>🧍 Personas</button
     >
+    <button
+      class:activo={filtro === "mascota"}
+      on:click={() => (filtro = "mascota")}>🐾 Mascotas</button
+    >
   </div>
 
   <!-- Cards filtradas -->
-  <div class="cards-container">
-    {#each datosFiltrados as fila}
-      <div class="card" style="background-color: {obtenerColor(fila.tipo)}">
-        <div class="icono">{obtenerIcono(fila.tipo)}</div>
-        <div class="contenido">
-          <h3>{fila.litros} L</h3>
-          <p><strong>Cenizas:</strong> {fila.gramos}</p>
-          <p><strong>Peso estimado:</strong> {fila.peso}</p>
-          <p><strong>Uso:</strong> {fila.uso}</p>
-        </div>
+  <!-- Agrupación por tipo -->
+  {#each ["angelito", "persona", "mascota"] as tipoActual}
+    {#if datosFiltrados.filter((d) => d.tipo === tipoActual).length > 0}
+      <h4 class="subtitulo-tipo">
+        {obtenerIcono(tipoActual)}
+        {tipoActual === "angelito"
+          ? "Angelitos"
+          : tipoActual === "persona"
+            ? "Personas"
+            : "Mascotas"}
+      </h4>
+
+      <div class="cards-container">
+        {#each datosFiltrados.filter((d) => d.tipo === tipoActual) as fila}
+          <div class="card" style="background-color: {obtenerColor(fila.tipo)}">
+            <div class="icono">{obtenerIcono(fila.tipo)}</div>
+            <div class="contenido">
+              <h3>{fila.litros} L</h3>
+              <p><strong>Cenizas:</strong> {fila.gramos}</p>
+              <p><strong>Peso estimado:</strong> {fila.peso}</p>
+              <p><strong>Uso:</strong> {fila.uso}</p>
+            </div>
+          </div>
+        {/each}
       </div>
-    {/each}
-  </div>
+    {/if}
+  {/each}
 
   <!-- Notas útiles -->
   <div class="notas">
@@ -269,5 +298,17 @@
     .contenido h3 {
       font-size: 1.25rem;
     }
+  }
+
+  .subtitulo-tipo {
+    font-size: 1.25rem;
+    margin: 2rem 0 1rem;
+    color: #fcfafa;
+    border-left: 5px solid #0077cc;
+    padding-left: 0.75rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
   }
 </style>
