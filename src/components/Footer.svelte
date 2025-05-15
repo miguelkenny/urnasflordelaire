@@ -34,8 +34,8 @@
     <div class="footer-links">
       <h3>Enlaces</h3>
       <a href="/">Inicio</a>
-      <a href="#urnas">Catálogo</a>
-      <a href="#capacidad">Capacidades</a>
+      <a href="/#urnas">Catálogo</a>
+      <a href="/#capacidad">Capacidades</a>
       <a href="/sobre-nosotros">Sobre Nosotros</a>
       <a href="/contacto">Contacto</a>
     </div>
