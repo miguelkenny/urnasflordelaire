@@ -46,25 +46,24 @@
         <a
           href="https://www.instagram.com/urnasflordelaire/"
           target="_blank"
-          aria-label="Instagram">📷</a
+          aria-label="Instagram"
         >
+          <i class="fab fa-instagram"></i>
+        </a>
         <a
-          href="https://www.facebook.com/"
+          href="https://wa.me/5492644036921"
           target="_blank"
-          aria-label="Facebook">📘</a
+          aria-label="WhatsApp"
         >
-        <a
-          href="https://wa.me/5493510000000"
-          target="_blank"
-          aria-label="WhatsApp">💬</a
-        >
+          <i class="fab fa-whatsapp"></i>
+        </a>
       </div>
     </div>
-  </div>
 
-  <div class="footer-bottom">
-    <p>
-      &copy; {currentYear} Urnas Flor del Aire. Todos los derechos reservados.
-    </p>
+    <div class="footer-bottom">
+      <p>
+        &copy; {currentYear} Urnas Flor del Aire. Todos los derechos reservados.
+      </p>
+    </div>
   </div>
 </footer>
