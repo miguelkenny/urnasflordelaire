@@ -45,7 +45,7 @@
     padding: 2rem;
     max-width: 800px;
     margin: 2rem auto;
-
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
     font-family: "Lato", sans-serif;
   }
@@ -58,18 +58,20 @@
   }
 
   h1 {
-    font-family: "Playfair Display", serif;
+    font-family: "Lobster", sans-serif;
     font-size: 2.5rem;
     color: #444;
     margin-bottom: 1rem;
   }
 
   .descripcion {
-    font-size: 1.05rem;
-    color: #333;
-    line-height: 1.6;
-    margin-bottom: 1.2rem;
-    padding: 0 1rem;
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #374151; /* gris oscuro, fácil de leer */
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: justify;
   }
 
   .detalle {
