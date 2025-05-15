@@ -289,22 +289,50 @@ a.whatsapp-button {
 }
 
 @media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: left;
+  }
+
   .footer-brand {
     flex-direction: column;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
   }
 
   .footer-logo {
     margin-bottom: 0.5rem;
   }
 
-  .footer-container {
-    text-align: center;
+  .footer-links,
+  .footer-contact,
+  .footer-social {
+    margin-bottom: 1rem;
   }
 
   .footer-links a,
   .footer-contact a {
-    display: inline-block;
+    display: block;
+    margin: 0.4rem 0;
+    font-size: 1rem;
+  }
+
+  .footer-links h3,
+  .footer-contact h3,
+  .footer-social h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .social-icons {
+    justify-content: flex-start;
+  }
+
+  .footer-bottom {
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    text-align: center; /* mantenemos centrado solo el copyright si querés */
   }
 }
 
