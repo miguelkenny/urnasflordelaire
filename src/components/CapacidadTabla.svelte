@@ -86,7 +86,7 @@
     filtro === "todos" ? datos : datos.filter((d) => d.tipo === filtro);
 </script>
 
-<section class="capacidad-section">
+<section class="capacidad-section" id="capacidad">
   <h2>Guía de Capacidades de Urnas</h2>
   <h3>
     Cada urna tiene una capacidad diferente, según la cantidad de cenizas
