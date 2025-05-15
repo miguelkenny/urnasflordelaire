@@ -268,4 +268,36 @@ export default [
     gramos: "",
     tipo: "prm"
   },
+  {
+    slug: "urna-mascota-piedra",
+    nombre: "Urna Mascota Simil Piedra",
+    descripcion: "Urna símil piedra para mascotas, un refugio natural y elegante para honrar su memoria.",
+    descripcionLarga: [
+      "Nuestra urna símil piedra para mascotas ha sido diseñada con sensibilidad y amor, evocando la textura y solidez de la piedra natural.",
+      "Su apariencia orgánica y discreta permite integrarla fácilmente en jardines, balcones o interiores, convirtiéndola en un espacio sereno para el recuerdo.",
+      "Ideal para quienes desean rendir homenaje a su compañero de cuatro patas con una pieza que transmita permanencia, respeto y conexión con la naturaleza."
+    ],
+    imagenes: [
+      "/images/mascota-piedra.png",
+    ],
+    capacidad: 0.750,
+    gramos: "375 - 450",
+    tipo: "prm"
+  },
+  {
+    slug: "urna-mascota-blanca",
+    nombre: "Urna Mascota Blanca",
+    descripcion: "Urna blanca para mascotas, simple y pura, para un homenaje lleno de luz.",
+    descripcionLarga: [
+      "Esta urna blanca para mascotas destaca por su diseño limpio y sereno, evocando paz y pureza.",
+      "Su color neutro la convierte en una pieza atemporal y adaptable a cualquier espacio del hogar.",
+      "Es ideal para quienes buscan una forma sencilla, respetuosa y luminosa de rendir homenaje a ese compañero que dejó una huella eterna en el corazón."
+    ],
+    imagenes: [
+      "/images/mascota-blanca.png",
+    ],
+    capacidad: 0.750,
+    gramos: "375 - 450",
+    tipo: "prm"
+  },
 ];
