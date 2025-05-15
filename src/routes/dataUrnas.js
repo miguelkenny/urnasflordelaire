@@ -122,8 +122,11 @@ export default [
   {
     slug: "urna-luz",
     nombre: "Urna Luz 1.700",
-    descripcion: "Una urna delicadamente decorada con un colibrí pintado a mano, símbolo de alegría, movimiento y conexión con lo sagrado.",
-    descripcionLarga: "El colibrí, con su vuelo ágil y etéreo, ha sido símbolo de ligereza, renovación y la trascendencia del alma. En muchas culturas, se le atribuye la misión de unir el mundo terrenal con el espiritual, llevando mensajes de amor y esperanza más allá del tiempo. En una urna cerámica, su presencia se convierte en un emblema de eternidad: un recordatorio de que aquellos que amamos no se desvanecen, sino que permanecen en la brisa, en el canto de la naturaleza y en cada instante de belleza que nos rodea. Como el colibrí que desafía el viento con su ímpetu, el alma que habita en su refugio no se apaga, sino que sigue vibrando en el recuerdo y el amor de quienes la honran. Esta urna es más que un receptáculo; es un santuario de memoria, un homenaje delicado a la vida que continúa su vuelo, sutil y eterno, en los corazones de quienes siguen su estela.",
+    descripcion: `"Urna Luz, delicadamente pintada a mano con un hermoso árbol de la vida realzado con destellos plateados, simbolizando la conexión eterna y la esperanza luminosa para el descanso de tus seres queridos."`,
+    descripcionLarga: `"La urna Luz es mucho más que un contenedor; es un símbolo de vida, esperanza y continuidad. 
+    Su diseño artesanal presenta un árbol de la vida, cuidadosamente pintado a mano y adornado con destellos plateados que capturan la luz, evocando la energía y la eternidad. 
+    El árbol de la vida representa la conexión entre el cielo y la tierra, el ciclo natural del renacimiento y la fortaleza ante la adversidad. 
+    En esta urna, cada detalle busca transmitir paz, amor y el reconocimiento de que la memoria y el espíritu de quienes amamos permanecen vivos, iluminando nuestro camino aún después de su partida."`,
     imagen: ["/images/LuzPlateada-1700.png"],
     capacidad: 1.750,
     gramos: "850 - 950",

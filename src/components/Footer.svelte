@@ -25,8 +25,8 @@
         >
       </p>
       <p>
-        📧 <a href="mailto:info@urnasflordelaire.com"
-          >info@urnasflordelaire.com</a
+        📧 <a href="mailto:urnasflordelaire@gmail.com"
+          >urnasflordelaire@gmail.com</a
         >
       </p>
     </div>
@@ -36,8 +36,8 @@
       <a href="/">Inicio</a>
       <a href="#urnas">Catálogo</a>
       <a href="#capacidad">Capacidades</a>
-      <a href="#faq">Preguntas frecuentes</a>
-      <a href="#contacto">Contacto</a>
+      <a href="/sobre-nosotros">Sobre Nosotros</a>
+      <a href="/contacto">Contacto</a>
     </div>
 
     <div class="footer-social">
