@@ -44,7 +44,7 @@
       <h3>Seguinos</h3>
       <div class="social-icons">
         <a
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/urnasflordelaire/"
           target="_blank"
           aria-label="Instagram">📷</a
         >
