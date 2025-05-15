@@ -11,5 +11,7 @@
     <strong>Capacidad:</strong>
     {urna.capacidad} litros (aprox. {urna.gramos}g de cenizas)
   </p>
-  <a href={`/urnas/${urna.slug}`}>Ver más</a>
+  <div class="urna-card__boton-container">
+    <a class="urna-card__boton" href={`/urnas/${urna.slug}`}> 🔍 Ver Reseña </a>
+  </div>
 </div>
