@@ -14,7 +14,9 @@
     <div class="flyer-content">
       <h1>{urna.nombre}</h1>
       <ImageSlider imagenes={urna.imagenes || [urna.imagen]} />
-      <p class="descripcion">{urna.descripcionLarga}</p>
+      {#each urna.descripcionLarga as parrafo}
+        <p class="descripcion">{parrafo}</p>
+      {/each}
       <div class="detalle">
         <strong>Capacidad:</strong>
         {urna.capacidad} litros (~{urna.gramos}g de cenizas)
