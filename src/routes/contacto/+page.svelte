@@ -1,4 +1,4 @@
-<h1>Contacto</h1>
+<h1 class="contacto">Contacto</h1>
 <p>
   Si querés consultarnos por una urna, realizar un pedido o simplemente hablar
   con nosotros, escribinos directamente por WhatsApp.

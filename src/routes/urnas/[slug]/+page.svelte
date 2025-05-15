@@ -33,6 +33,9 @@
       >
         Consultar por WhatsApp
       </a>
+      <a href="/#urnas" rel="noopener" class="whatsapp-button">
+        Volver al Catálogo
+      </a>
     </div>
   </section>
 {:else}
