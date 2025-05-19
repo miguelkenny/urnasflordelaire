@@ -269,6 +269,25 @@ export default [
     tipo: "prm"
   },
   {
+    slug: "urna-angelito-gr",
+    nombre: "Urna Angelito",
+    descripcion: "Urna redonda y blanca para angelitos, con delicado cordón en tonos suaves. Un homenaje tierno y sereno para las almas más puras.",
+    descripcionLarga: [
+      "Pequeña y redonda, esta urna ha sido creada con ternura para honrar a los más pequeños.",
+      "Su diseño sencillo en blanco puro simboliza la inocencia y la paz.",
+      "Cada unidad se acompaña de un suave cordón —a elección entre celeste, rosado, verde agua o beige— que envuelve y resguarda con amor su contorno.",
+      "Pensada como un refugio sereno para las almas más puras, esta urna es una escultura del cariño eterno, del lazo invisible que une para siempre.",
+      "Ideal para acompañar un homenaje íntimo y lleno de significado."
+    ],
+    imagenes: [
+      "/images/angelito-gr-1.png",
+      "/images/angelito-gr-2.png",
+    ],
+    capacidad: 0.250,
+    gramos: "",
+    tipo: "prm"
+  },
+  {
     slug: "urna-mascota-piedra",
     nombre: "Urna Mascota Simil Piedra",
     descripcion: "Urna símil piedra para mascotas, un refugio natural y elegante para honrar su memoria.",
@@ -295,6 +314,22 @@ export default [
     ],
     imagenes: [
       "/images/mascota-blanca.png",
+    ],
+    capacidad: 0.750,
+    gramos: "375 - 450",
+    tipo: "prm"
+  },
+  {
+    slug: "urna-mascota-redonda-piedra",
+    nombre: "Urna Mascota Simil Piedra",
+    descripcion: "Urna símil piedra para mascotas, un refugio natural y elegante para honrar su memoria.",
+    descripcionLarga: [
+      "Nuestra urna símil piedra para mascotas ha sido diseñada con sensibilidad y amor, evocando la textura y solidez de la piedra natural.",
+      "Su apariencia orgánica y discreta permite integrarla fácilmente en jardines, balcones o interiores, convirtiéndola en un espacio sereno para el recuerdo.",
+      "Ideal para quienes desean rendir homenaje a su compañero de cuatro patas con una pieza que transmita permanencia, respeto y conexión con la naturaleza."
+    ],
+    imagenes: [
+      "/images/mascota-redonda-piedra.png",
     ],
     capacidad: 0.750,
     gramos: "375 - 450",
