@@ -49,7 +49,7 @@
     background: #fff;
     padding: 2rem;
     max-width: 800px;
-    margin: 2rem auto;
+    margin: 2rem 1rem;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
     font-family: "Lato", sans-serif;
