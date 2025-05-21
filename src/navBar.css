@@ -1,0 +1,221 @@
+/* ====== Navbar styles ====== */
+/* ====== Navbar styles actualizados ====== */
+.navbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(145deg, #442063, #1d3263);
+  color: white;
+  padding: 1.5rem 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Compactar altura y mantener elegancia */
+.navbar-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.logo-img {
+  border-radius: 100%;
+  height: 60px;
+  margin-right: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.slogan-container {
+  line-height: 1.2;
+  text-align: left;
+}
+
+.slogan-principal {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 0.2rem;
+}
+
+.slogan-secundario {
+  font-size: 1rem;
+  font-style: italic;
+  opacity: 0.85;
+  max-width: 100%;
+}
+
+/* Estilos del botón hamburguesa */
+.hamburger {
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  display: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Menú de navegación */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+nav li a:hover {
+  color: #c7c786;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+    z-index: 10;
+  }
+
+  nav ul {
+    position: absolute;
+    top: 5rem;
+    right: 1rem;
+    flex-direction: column;
+    width: 60%;
+    background-color: #1d3263;
+    display: none;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9;
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+
+  nav li {
+    text-align: right;
+    margin: 0.5rem 0;
+  }
+
+  .logo-img {
+    height: 50px;
+  }
+
+  .slogan-principal {
+    font-size: 1.4rem;
+  }
+
+  .slogan-secundario {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 400px) {
+  .navbar-container {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .logo {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+
+  .logo-img {
+    height: 45px;
+    margin-right: 0.5rem;
+  }
+
+  .slogan-container {
+    max-width: calc(100% - 60px);
+  }
+
+  .slogan-principal {
+    font-size: 1.2rem;
+  }
+
+  .slogan-secundario {
+    font-size: 0.8rem;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: 0.8rem;
+    right: 1rem;
+  }
+
+  nav ul {
+    width: 90%;
+    right: 5%;
+    top: 4.2rem;
+  }
+}
+@media (max-width: 480px) {
+  .navbar-container {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .logo {
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+  }
+
+  .logo-img {
+    height: 60px;
+    margin-bottom: 0.5rem;
+  }
+
+  .slogan-container {
+    max-width: 90%;
+  }
+
+  .slogan-principal {
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .slogan-secundario {
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  nav ul {
+    top: 5rem;
+    right: 5%;
+    width: 90%;
+  }
+}

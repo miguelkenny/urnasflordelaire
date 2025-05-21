@@ -1,9 +1,10 @@
 <script>
   import "../app.css";
+  import "../navBar.css";
   import "../contacto.css";
-  import Footer from "../components/Footer.svelte";
   import "../imageSlider.css";
   import WhatsAppButton from "../components/WhatsAppButton.svelte";
+  import Footer from "../components/Footer.svelte";
   let isOpen = false;
 </script>
 
@@ -46,6 +47,7 @@
     </ul>
   </div>
 </nav>
+
 <div class="main-container">
   <slot />
   <WhatsAppButton />

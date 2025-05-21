@@ -31,6 +31,7 @@ h3 {
   margin-bottom: 1rem;
 }
 .page-container {
+  align-items: center;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -380,126 +381,8 @@ a.whatsapp-button {
   }
 }
 
-/* ====== Navbar styles ====== */
-.navbar {
-  background: linear-gradient(145deg, #442063, #1d3263);
-  color: white;
-  padding: 3rem 0;
-  height: 18rem;
-}
-
-.navbar-container {
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 3rem 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-/* Centralizar el contenido principal */
-.main-container {
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-}
-
-.logo {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-decoration: none;
-  color: white;
-  text-align: left;
-}
-.logo-img {
-  border-radius: 100%;
-  height: 100px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  object-fit: contain;
-  text-align: left;
-}
-.slogan-container {
-  line-height: 1.2;
-}
-.slogan-principal {
-  font-weight: bold;
-  font-size: 3.54rem;
-  letter-spacing: 1px;
-}
-
-.slogan-secundario {
-  font-size: 1.2rem;
-  font-style: italic;
-  opacity: 0.85;
+html,
+body {
   max-width: 100%;
-}
-
-.hamburger {
-  font-size: 1.5rem;
-  background: none;
-  border: none;
-  display: none;
-  color: white;
-  cursor: pointer;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-  padding: 0;
-  margin: 0;
-}
-
-nav li a {
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-}
-
-@media (max-width: 768px) {
-  .logo {
-    position: absolute;
-    margin-top: 12rem;
-  }
-  .hamburger {
-    display: block;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    z-index: 10;
-  }
-  .slogan-principal {
-    font-size: 2.4rem;
-  }
-  nav {
-    position: relative; /* Para que el menú se posicione con respecto al nav */
-  }
-
-  nav ul {
-    position: absolute;
-    top: 4.3rem; /* ajusta según el tamaño del botón */
-    right: 1rem;
-    flex-direction: column;
-    width: calc(40% - 0.5rem); /* o un ancho específico */
-    background-color: #c7c786; /* o cualquier color de fondo para que sea visible */
-    display: none;
-    margin: 1;
-    padding: 4px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    z-index: 9;
-  }
-
-  nav ul.open {
-    display: flex;
-    padding-right: 0.5rem;
-  }
-
-  nav li {
-    text-align: right;
-    margin: 0.1rem 0;
-  }
+  overflow-x: hidden;
 }
