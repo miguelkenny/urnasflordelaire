@@ -1,6 +1,7 @@
 <script>
   import "../app.css";
   import "../navBar.css";
+  import "../sobre-nosotros.css";
   import "../contacto.css";
   import "../imageSlider.css";
   import "../resenias.css";

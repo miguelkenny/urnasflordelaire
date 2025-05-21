@@ -1,0 +1,161 @@
+.about-wrapper {
+  font-family: "Segoe UI", sans-serif;
+  color: #ffffff;
+  line-height: 1.7;
+  background-color: #f9fafb00;
+  padding-bottom: 1rem;
+}
+
+.about-hero {
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f9fafb;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.about-title {
+  font-size: 2.8rem;
+  font-family: "Lobster", cursive;
+  margin-bottom: 0.5rem;
+  color: #ccc;
+}
+
+.about-subtitle {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  font-size: 1.1rem;
+}
+
+.about-content em {
+  color: #6b7280;
+}
+
+.about-quote {
+  margin-top: 2rem;
+  padding-left: 1rem;
+  border-left: 4px solid #d1d5db;
+  color: #f6f7f7;
+  font-style: italic;
+}
+
+.timeline-section {
+  background-color: #f3f4f6;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.timeline-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #374151;
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #d1d5db;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  position: relative;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #6b7280;
+  width: 60px;
+  flex-shrink: 0;
+}
+
+.timeline-content h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #111827;
+}
+
+.timeline-content p {
+  margin: 0.25rem 0 0;
+  color: #4b5563;
+}
+
+.contact-cta {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.contact-cta button {
+  background-color: #111827;
+  color: #f9fafb;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-cta button:hover {
+  background-color: #374151;
+}
+
+@media (max-width: 640px) {
+  .about-title {
+    font-size: 2.2rem;
+  }
+
+  .timeline::before {
+    left: 10px;
+  }
+
+  .timeline-item {
+    padding-left: 30px;
+  }
+}
