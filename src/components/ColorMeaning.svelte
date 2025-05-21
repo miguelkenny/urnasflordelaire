@@ -60,7 +60,7 @@
 <div class="colors-section">
   <div class="colors-grid">
     {#each colors as color, index}
-      <div class="card" on:click={() => toggle(index)}>
+      <button class="card" on:click={() => toggle(index)}>
         <div class="color-header">
           <div
             class="swatch"
@@ -72,7 +72,7 @@
         {#if selected === index}
           <p>{color.descripcion}</p>
         {/if}
-      </div>
+      </button>
     {/each}
   </div>
 </div>
