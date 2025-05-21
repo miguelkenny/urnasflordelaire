@@ -12,7 +12,7 @@
   <div class="linea"></div>
   <CapacidadTabla />
   <div class="linea"></div>
-  <h1 id="urnas">Catálogo de Urnas</h1>
+  <h1 class="urnas" id="urnas">Catálogo de Urnas</h1>
   <div class="grid-urnas">
     {#each urnas as urna}
       <UrnaCard {urna} />

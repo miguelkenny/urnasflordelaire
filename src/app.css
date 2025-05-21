@@ -26,6 +26,9 @@ h3 {
   margin-top: 0;
   text-align: center;
 }
+.urnas {
+  color: rgb(217, 217, 217);
+}
 .linea {
   border-top: 1px solid #e5e7eb; /* línea gris clara */
   margin-bottom: 1rem;
@@ -57,7 +60,7 @@ h3 {
   width: 100%;
   height: auto; /* Altura proporcional al ancho */
   aspect-ratio: 4 / 3; /* Proporción más natural */
-  object-fit: cover;
+
   border-radius: 8px;
   margin-bottom: 1rem;
 }

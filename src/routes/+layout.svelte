@@ -3,6 +3,7 @@
   import "../navBar.css";
   import "../contacto.css";
   import "../imageSlider.css";
+  import "../resenias.css";
   import WhatsAppButton from "../components/WhatsAppButton.svelte";
   import Footer from "../components/Footer.svelte";
   let isOpen = false;
