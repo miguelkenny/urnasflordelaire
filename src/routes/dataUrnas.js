@@ -181,7 +181,7 @@ export default [
   },
   {
     slug: "urna-luz",
-    nombre: "Urna Luz 1.700",
+    nombre: "Urna Luz ~ 1.700 Lts.",
     descripcion: `"Urna Luz, delicadamente pintada a mano con un hermoso árbol de la vida realzado con destellos plateados, simbolizando la conexión eterna y la esperanza luminosa para el descanso de tus seres queridos."`,
     descripcionLarga: [
       "La urna Luz es mucho más que un contenedor; es un símbolo de vida, esperanza y continuidad.",

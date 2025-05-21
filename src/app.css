@@ -40,6 +40,9 @@ h3 {
   min-height: 100vh;
 }
 
+.main-container {
+  align-items: center;
+}
 /* Tarjetas de urnas */
 .urna-card {
   background: rgb(61, 45, 108);
