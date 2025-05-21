@@ -4,6 +4,7 @@
   import "../contacto.css";
   import "../imageSlider.css";
   import "../resenias.css";
+  import "../footer.css";
   import WhatsAppButton from "../components/WhatsAppButton.svelte";
   import Footer from "../components/Footer.svelte";
   let isOpen = false;

@@ -1,0 +1,129 @@
+/* ===== Footer base ===== */
+.footer {
+  width: 100%;
+  margin: auto;
+  background-color: #111827;
+  color: #f9fafb;
+  padding: 2rem;
+  font-size: 0.95rem;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+/* Logo + Marca */
+.footer-logo {
+  height: 60px;
+  margin-right: 1rem;
+  border-radius: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #f9fafb;
+}
+
+.footer-brand-text {
+  display: flex;
+  flex-direction: column;
+}
+.marca {
+  margin-bottom: 0.2rem;
+}
+.slogan {
+  font-style: italic;
+  color: #d1d5db;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+  text-align: left;
+}
+
+/* Enlaces y textos */
+.footer-links,
+.footer-contact,
+.footer-social {
+  margin-bottom: 1rem;
+}
+
+.footer-links a,
+.footer-contact a {
+  color: #f3f4f6;
+  text-decoration: none;
+  display: block;
+  margin: 0.4rem 0;
+  font-size: 1rem;
+}
+
+.footer-contact a:hover,
+.footer-links a:hover {
+  color: #60a5fa;
+}
+
+.footer-links h3,
+.footer-contact h3,
+.footer-social h3 {
+  text-align: left;
+  font-size: 1.05rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Redes sociales */
+.social-icons {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 1.5rem;
+  justify-content: flex-start;
+}
+
+.footer-social a {
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.footer-social a:hover {
+  transform: scale(1.2);
+}
+
+/* Pie de página */
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  font-size: 0.9rem;
+  color: #9ca3af;
+  padding-top: 1rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: left;
+  }
+
+  .footer-brand {
+    flex-direction: row; /* logo a la izquierda, texto a la derecha */
+    align-items: start;
+  }
+
+  .footer-logo {
+    margin-bottom: 0;
+  }
+
+  .footer-brand-text {
+    text-align: left;
+  }
+
+  .slogan {
+    text-align: left;
+    margin-top: 0.1rem;
+  }
+}

@@ -10,8 +10,8 @@
         alt="Logo Urnas Flor del Aire"
         class="footer-logo"
       />
-      <div>
-        <h2>Urnas Flor del Aire</h2>
+      <div class="footer-brand-text">
+        <h2 class="marca">Urnas Flor del Aire</h2>
         <p class="slogan">Casitas para Almas</p>
       </div>
     </div>
@@ -59,11 +59,11 @@
         </a>
       </div>
     </div>
+  </div>
 
-    <div class="footer-bottom">
-      <p>
-        &copy; {currentYear} Urnas Flor del Aire. Todos los derechos reservados.
-      </p>
-    </div>
+  <div class="footer-bottom">
+    <p>
+      &copy; {currentYear} Urnas Flor del Aire. Todos los derechos reservados.
+    </p>
   </div>
 </footer>
