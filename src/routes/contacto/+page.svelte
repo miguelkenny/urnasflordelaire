@@ -1,5 +1,5 @@
 <section class="contact-section">
-  <h1 class="section-title">Contacto</h1>
+  <h1 class="section-title contacto">Contacto</h1>
   <p class="section-text">
     Si querés consultarnos por una urna, realizar un pedido o simplemente hablar
     con nosotros, escribinos directamente por WhatsApp o a través de nuestros
@@ -48,7 +48,7 @@
   }
 
   .section-title {
-    font-size: 2.2rem;
+    font-size: 3rem;
     margin-bottom: 0.8rem;
     text-align: center;
     color: #ffffff;
