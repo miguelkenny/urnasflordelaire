@@ -1,6 +1,8 @@
 <script>
   import "../app.css";
+  import "../contacto.css";
   import Footer from "../components/Footer.svelte";
+  import "../imageSlider.css";
   import WhatsAppButton from "../components/WhatsAppButton.svelte";
   let isOpen = false;
 </script>

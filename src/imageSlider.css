@@ -1,0 +1,33 @@
+.slider {
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.slide-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.controls {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.controls button {
+  background: #ddd;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #ccc;
+}
