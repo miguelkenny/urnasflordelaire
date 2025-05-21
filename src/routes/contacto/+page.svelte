@@ -35,6 +35,7 @@
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
+        title="Ubicación de Urnas Flor del Aire en Google Maps"
       ></iframe>
     </div>
   </div>
