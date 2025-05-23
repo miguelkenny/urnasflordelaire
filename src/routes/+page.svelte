@@ -7,10 +7,7 @@
 </script>
 
 <div class="page-container">
-  <div class="linea"></div>
   <IntroBanner />
-  <div class="linea"></div>
-  <CapacidadTabla />
   <div class="linea"></div>
   <h1 class="urnas" id="urnas">Catálogo de Urnas</h1>
   <div class="grid-urnas">
@@ -18,4 +15,6 @@
       <UrnaCard {urna} />
     {/each}
   </div>
+  <div class="linea"></div>
+  <CapacidadTabla />
 </div>
