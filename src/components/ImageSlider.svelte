@@ -18,7 +18,7 @@
     {#if imagenes.length > 1}
       <div class="controls">
         <button on:click={prev}>&laquo;</button>
-        <span>{current + 1} / {imagenes.length}</span>
+        <span style="color: black;">{current + 1} / {imagenes.length}</span>
         <button on:click={next}>&raquo;</button>
       </div>
     {/if}

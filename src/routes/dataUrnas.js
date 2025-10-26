@@ -46,6 +46,7 @@ export default [
   {
     slug: "urna-manantial",
     nombre: "Urna Manantial",
+    peso: "80-95 Kg.",
     descripcion: "Una urna de gran capacidad, símbolo de abundancia y amor.",
     descripcionLarga: [
       "Manantial es una urna de gran capacidad, inspirada en la abundancia de las fuentes naturales.",

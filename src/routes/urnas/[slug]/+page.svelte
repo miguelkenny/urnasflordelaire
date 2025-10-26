@@ -18,6 +18,10 @@
         <p class="descripcion">{parrafo}</p>
       {/each}
       <div class="detalle">
+        <strong>Peso Corporal Aprox.:</strong>
+        {urna.peso}
+      </div>
+      <div class="detalle">
         <strong>Capacidad:</strong>
         {urna.capacidad} litros (~{urna.gramos}g de cenizas)
       </div>
