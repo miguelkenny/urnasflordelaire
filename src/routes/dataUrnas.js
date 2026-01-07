@@ -141,6 +141,7 @@ export default [
       "Una casita para el alma, donde el mar interior se encuentra con el cielo eterno."
     ],
     imagen: ["/images/Horizonte.png"],
+    peso:"80 - 95kgs",
     capacidad: "2.5 Lts.",
     gramos: "1250 - 1500",
     tipo: "prm"
