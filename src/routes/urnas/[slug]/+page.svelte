@@ -13,7 +13,7 @@
   <section class="flyer">
     <div class="flyer-content">
       <h1>{urna.nombre}</h1>
-      <h1>{urna.descripcion}</h1>
+      <h2>{urna.descripcion}</h2>
       <ImageSlider imagenes={urna.imagenes || [urna.imagen]} />
       {#each urna.descripcionLarga as parrafo}
         <p class="descripcion">{parrafo}</p>
