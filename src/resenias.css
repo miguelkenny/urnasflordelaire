@@ -24,6 +24,13 @@ h1 {
   margin-bottom: 1rem;
 }
 
+h2 {
+  font-family: "Lobster", sans-serif;
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
 .descripcion {
   font-family: "Playfair Display", Georgia, serif;
   font-size: 1.125rem;
