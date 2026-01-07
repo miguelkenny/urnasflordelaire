@@ -159,6 +159,7 @@ export default [
       "Es una casita para almas que vivieron intensamente, con la templanza del otoño y el corazón lleno de historias."
     ],
     imagen: ["/images/2500-otono.png"],
+    peso: "80 - 95kgs",
     capacidad: "2.5 Lts.",
     gramos: "1250 - 1500",
     tipo: "prm"
