@@ -122,6 +122,7 @@ export default [
       "El azul evoca la inmensidad del cielo y la calma de las aguas profundas, mientras que la pluma simboliza guía, memoria y libertad."
     ],
     imagen: ["/images/2500-pluma.png"],
+    peso: "80 - 95kgs",
     capacidad: "2.5 Lts.",
     gramos: "1250 - 1500",
     tipo: "prm"
@@ -141,7 +142,7 @@ export default [
       "Una casita para el alma, donde el mar interior se encuentra con el cielo eterno."
     ],
     imagen: ["/images/Horizonte.png"],
-    peso:"80 - 95kgs",
+    peso: "80 - 95kgs",
     capacidad: "2.5 Lts.",
     gramos: "1250 - 1500",
     tipo: "prm"
