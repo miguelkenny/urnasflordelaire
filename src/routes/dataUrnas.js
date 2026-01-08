@@ -10,6 +10,7 @@ export default [
       "Ideal para quienes fueron luz suave y presencia discreta."
     ],
     imagen: ["/images/1350.png"],
+    peso: "30 - 45kgs.",
     capacidad: 1.350,
     gramos: "600 - 700",
     tipo: "std"
@@ -24,6 +25,7 @@ export default [
       "Inspirada en la belleza serena del lirio, es perfecta para quienes dejaron una huella sutil pero profunda, como un perfume que persiste en el alma."
     ],
     imagen: ["/images/urna-1500-verde.png"],
+    peso: "45 - 55kgs.",
     capacidad: 1.500,
     gramos: "700 - 800",
     tipo: "std"
@@ -39,6 +41,7 @@ export default [
       "Es un tributo a la vida que continúa, aún después de la despedida."
     ],
     imagen: ["/images/1500.png"],
+    peso: "55 - 65kgs.",
     capacidad: 1.750,
     gramos: "850 - 950",
     tipo: "std"
@@ -60,6 +63,7 @@ export default [
       "/images/2500-caramelo.png",
       "/images/2500-habano.png"
     ],
+    peso: "80 - 95kgs.",
     capacidad: 2.500,
     gramos: "1,250 - 1,500",
     tipo: "std"
@@ -79,6 +83,7 @@ export default [
       "Una casita para el alma, donde el mar interior se encuentra con el cielo eterno."
     ],
     imagen: ["/images/2500-simil-piedra.png"],
+    peso: "80 - 95kgs.",
     capacidad: "2.5 Lts.",
     gramos: "1250 - 1500",
     tipo: "prm"
@@ -92,6 +97,7 @@ export default [
       "Su diseño sobrio en color liso rinde homenaje a quienes fueron pilares en la vida de sus seres queridos."
     ],
     imagen: ["/images/1500-simil-piedra.png"],
+    peso: "45 - 55kgs.",
     capacidad: 1.500,
     gramos: "700 - 800",
     tipo: "prm"
@@ -107,6 +113,7 @@ export default [
       "El azul evoca la inmensidad del cielo y la calma de las aguas profundas, mientras que la pluma simboliza guía, memoria y libertad."
     ],
     imagen: ["/images/1750-pluma.png"],
+    peso: "55 - 65kgs.",
     capacidad: 1.750,
     gramos: "850 - 950",
     tipo: "prm"
@@ -179,6 +186,7 @@ export default [
       "/images/1750-colibri.png",
       "/images/1750-colibri2.png"
     ],
+    peso: "55 - 65kgs.",
     capacidad: 1.750,
     gramos: "850 - 950",
     tipo: "prm"
@@ -194,6 +202,7 @@ export default [
       "En esta urna, cada detalle busca transmitir paz, amor y el reconocimiento de que la memoria y el espíritu de quienes amamos permanecen vivos, iluminando nuestro camino aún después de su partida."
     ],
     imagen: ["/images/LuzPlateada-1700.png"],
+    peso: "50 - 60kgs.",
     capacidad: 1.750,
     gramos: "850 - 950",
     tipo: "prm"
@@ -213,6 +222,7 @@ export default [
       "/images/3500-origen.png",
       "/images/3500-origen2.png"
     ],
+    peso: "110 - 130kgs.",
     capacidad: 3.500,
     gramos: "1750 - 2000",
     tipo: "prm"
@@ -231,6 +241,7 @@ export default [
     imagenes: [
       "/images/gota.png",
     ],
+    peso: "95 - 110kgs.",
     capacidad: 3.000,
     gramos: "1500 - 1800",
     tipo: "prm"
@@ -249,6 +260,7 @@ export default [
     imagenes: [
       "/images/angelito-escultura.png",
     ],
+    peso: "22 - 35kgs.",
     capacidad: 1.000,
     gramos: "460 - 540",
     tipo: "prm"
@@ -268,8 +280,9 @@ export default [
       "/images/angelito.png",
       "/images/angelito2.png",
     ],
+    peso: "2 - 3kgs.",
     capacidad: 0.250,
-    gramos: "",
+    gramos: "125 - 150grs.",
     tipo: "prm"
   },
   {
@@ -287,8 +300,9 @@ export default [
       "/images/angelito-gr-1.png",
       "/images/angelito-gr-2.png",
     ],
+    peso: "2 - 3kgs.",
     capacidad: 0.250,
-    gramos: "",
+    gramos: "125 - 150grs.",
     tipo: "prm"
   },
   {
@@ -303,6 +317,7 @@ export default [
     imagenes: [
       "/images/mascota-piedra.png",
     ],
+    peso: "15 - 25kgs.",
     capacidad: 0.750,
     gramos: "375 - 450",
     tipo: "prm"
@@ -319,6 +334,7 @@ export default [
     imagenes: [
       "/images/mascota-blanca.png",
     ],
+    peso: "15 - 25kgs.",
     capacidad: 0.750,
     gramos: "375 - 450",
     tipo: "prm"
@@ -335,6 +351,7 @@ export default [
     imagenes: [
       "/images/mascota-redonda-piedra.png",
     ],
+    peso: "15 - 25kgs.",
     capacidad: 0.750,
     gramos: "375 - 450",
     tipo: "prm"
