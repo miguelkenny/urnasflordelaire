@@ -6,7 +6,7 @@
   <div class="footer-container">
     <div class="footer-brand">
       <img
-        src="/images/icon400x400.png"
+        src="/images/icon512x512.png"
         alt="Logo Urnas Flor del Aire"
         class="footer-logo"
       />
@@ -22,6 +22,11 @@
       <p>
         📞 <a href="https://wa.me/5492644036921" target="_blank"
           >+54 9 264 403 6921</a
+        >
+      </p>
+      <p>
+        📞 <a href="https://wa.me/5492645501706" target="_blank"
+          >+54 9 264 550 1706</a
         >
       </p>
       <p>

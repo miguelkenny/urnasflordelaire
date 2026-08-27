@@ -17,10 +17,8 @@
 
 /* Logo + Marca */
 .footer-logo {
-  height: 60px;
+  height: 100px;
   margin-right: 1rem;
-  border-radius: 100%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .footer-brand {
@@ -35,6 +33,7 @@
   flex-direction: column;
 }
 .marca {
+  color: #d1d5db;
   margin-bottom: 0.2rem;
 }
 .slogan {

@@ -15,7 +15,7 @@
   <div class="navbar-container">
     <a href="/" class="logo">
       <img
-        src="/images/icon400x400.png"
+        src="/images/icon512x512.png"
         alt="Urnas Flor del Aire"
         class="logo-img"
       />
@@ -39,6 +39,9 @@
 
     <ul class:open={isOpen}>
       <li><a href="/" on:click={() => (isOpen = false)}>Inicio</a></li>
+      <li>
+        <a href="/#capacidad" on:click={() => (isOpen = false)}>Capacidades</a>
+      </li>
       <li>
         <a href="/sobre-nosotros" on:click={() => (isOpen = false)}
           >Sobre Nosotros</a
